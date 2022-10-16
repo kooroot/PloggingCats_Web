@@ -1,3 +1,15 @@
+# 페이지를 출력하는 방법 (22-10-16 JYS)
+1. 해당 페이지에서 터미널 열기
+2. 필요한 파일 다운로드 하기
+> yarn install
+또는
+> npm install
+3. 페이지 출력하기
+  - 페이지는 자동으로 출력됩니다.
+> yarn start
+또는 
+> npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
