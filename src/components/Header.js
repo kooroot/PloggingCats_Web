@@ -56,7 +56,7 @@ const Header = () => {
       >
         {scrollLink.map((v, i) => {
           return (
-            <ScrollLink key={i} to={v} spy={true} smooth={true}>
+            <ScrollLink key={i} to={v} spy={true} smooth={true} offset={-113}>
               <Text
               display="inline-block"
               size={["xs", "sm", "md"]}
