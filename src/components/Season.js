@@ -41,6 +41,7 @@ const Season = () => {
   }
   return (
     <Flex
+      id="Season"
       maxW={1920}
       w="100%"
       m={[0, "auto"]}

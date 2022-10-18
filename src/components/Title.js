@@ -7,11 +7,13 @@ import Intro from "../images/intro.png";
 const Title = () => {
   return (
     <Flex
+      id="플로킹캣츠 소개"
       w="100%"
       alignItems="center"
     >
       <Image
         maxW={1920}
+        w="100%"
         src={Intro}
         m={[0, "auto"]}
       />

@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const Work = () => {
   return (
     <Flex
+      id="하는일"
       w="100%"
       h={660}
       alignItems="center"

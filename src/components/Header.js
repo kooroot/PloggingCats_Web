@@ -1,7 +1,5 @@
-import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
-import { FaInstagram, FaTwitter, FaDiscord } from "react-icons/fa";
-import { IoMoon, IoSunny } from "react-icons/io5";
 
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
 import Logo from "../images/logo.png"
@@ -16,12 +14,8 @@ const discordURL = "https://discord.gg/JV4whBWNPs";
 const kakaoURL = "https://testnets.opensea.io/collection/projectlion-nft";
 
 const Header = () => {
-  const scrollLink = ["플로킹캣츠 소개", "하는일", "시즌 캠페인", "후원하기"];
-
-  {/* DarkMode */}
-  // const { colorMode, toggleColorMode } = useColorMode();
-  const colorMode = "light"
-
+  // const scrollLink = [{"text":"플로킹캣츠 소개"}, {"text":"하는일"}, {"text":"시즌 캠페인"}];
+  const scrollLink = ["플로킹캣츠 소개", "하는일", "Season"];
   return (
     <Flex
       pos="fixed"
