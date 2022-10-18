@@ -6,14 +6,16 @@ import Intro from "../images/intro.png";
 
 const Title = () => {
   return (
-    <Box
+    <Flex
       w="100%"
       alignItems="center"
     >
       <Image
+        maxW={1920}
         src={Intro}
+        m={[0, "auto"]}
       />
-    </Box>
+    </Flex>
   );
 };
 

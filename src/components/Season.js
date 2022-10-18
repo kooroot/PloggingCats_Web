@@ -29,7 +29,8 @@ const Season = () => {
         <Box>
           <Image
             w="100%"
-            h="auto"
+            h="100%"
+            m={[0, "auto"]}
             src={seasonData[idx].image}
           />
         </Box>
@@ -40,12 +41,16 @@ const Season = () => {
   }
   return (
     <Flex
+      maxW={1920}
       w="100%"
+      m={[0, "auto"]}
       alignItems="center"
       backgroundColor="#f3ebcb"
       flexDir="column"
+      pb={200}
     >
       <Image
+        maxW={1920}
         w="100%"
         h="auto"
         src={season_intro}

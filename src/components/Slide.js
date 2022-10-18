@@ -38,22 +38,24 @@ export default class CenterMode extends Component {
       pauseOnHover: true
     };
 
-    const dotsCustom = (idx) => {
+    const slideCustom = (idx) => {
       return (
-        <div>
-          <div className="slide_text">{baseUrl[idx].title}</div>
-          <img className="slide_image" src={baseUrl[idx].image} />
+        <div className="item_wrap">
+          <div className="slide_item">
+            <div className="slide_text">{baseUrl[idx].title}</div>
+            <img className="slide_iamge" src={baseUrl[idx].image} />
+          </div>
         </div>
       );
     };
     return (
       <div className="slide_wrapper">
         <Slider {...settings}>
-        {dotsCustom(0)}
-        {dotsCustom(1)}
-        {dotsCustom(2)}
-        {dotsCustom(3)}
-        {dotsCustom(4)}
+        {slideCustom(0)}
+        {slideCustom(1)}
+        {slideCustom(2)}
+        {slideCustom(3)}
+        {slideCustom(4)}
         </Slider>
       </div>
     );

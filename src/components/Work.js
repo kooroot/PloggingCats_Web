@@ -8,6 +8,7 @@ const Work = () => {
       h={660}
       alignItems="center"
       justifyContent="center"
+      bgColor="#fff"
     >
       <Text
       fontSize={96}
