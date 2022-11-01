@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "../../node_modules/slick-carousel/slick/slick.css";
-import "../../node_modules/slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import img1 from "../images/slide/slide_image_1.png";
 import img2 from "../images/slide/slide_image_2.png";
@@ -23,7 +23,7 @@ export default class CenterMode extends Component {
         return (
           <div className="paging_item">
             <img className="paging_image" src={`${baseUrl[i].image}`} />
-            <div className="paging_text">{`${baseUrl[i].text}`}</div>
+            {/* <div className="paging_text">{`${baseUrl[i].text}`}</div> */}
           </div>
         );
       },

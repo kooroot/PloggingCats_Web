@@ -1,22 +1,35 @@
-import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
 
-// @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
-import Intro from "../images/intro.png";
+import Intro from "../images/logo.png";
 
 const Title = () => {
   return (
     <Flex
-      id="플로킹캣츠 소개"
+      id="Title"
       w="100%"
+      h="60vh"
       alignItems="center"
+      justifyContent="center"
+      flexDir="column"
+      backgroundColor="#ff360a"
+      minW={1100}
     >
       <Image
-        maxW={1920}
-        w="100%"
+        w="800px"
+        h="400px"
         src={Intro}
         m={[0, "auto"]}
       />
+      <Box
+        border="2px solid #fff"
+        w="120px"
+        textAlign={"center"}
+        py={3}
+        borderRadius="50%"
+        color="#fff"
+        mb="150px"
+      >SCROLL</Box>
     </Flex>
   );
 };

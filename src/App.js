@@ -4,6 +4,7 @@ import { ChakraProvider, theme } from '@chakra-ui/react';
 // import { Logo } from './Logo';
 import Header from './components/Header';
 import Title from './components/Title';
+import Concept from './components/Concept';
 import Work from './components/Work';
 import Slide from './components/Slide';
 import Season from './components/Season';
@@ -16,6 +17,7 @@ function App() {
     <ChakraProvider theme={theme} p="50">
       <Header />
       <Title />
+      <Concept />
       <Work />
       <Slide />
       <Season />
