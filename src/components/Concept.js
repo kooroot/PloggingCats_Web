@@ -30,7 +30,6 @@ const Concept = () => {
       </Box>
       <Flex
       mt="8%"
-      ml="15%"
       w="80%"
       maxW={1000}
       justifyContent="flex-end"

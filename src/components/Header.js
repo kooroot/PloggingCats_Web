@@ -5,11 +5,11 @@ import { Link as ScrollLink } from 'react-scroll';
 import Logo from '../images/logo.png';
 import Insta from '../images/icon/insta.png';
 import Twitter from '../images/icon/twitter.png';
-import Kakaotalk from '../images/icon/kakaotalk.png';
+import Telegram from '../images/icon/telegram.png';
 
 const instagramURL = 'https://www.instagram.com/ploggingnft/';
 const twitterURL = 'https://twitter.com/Plogging_Cats';
-const kakaoURL = 'https://testnets.opensea.io/collection/projectlion-nft';
+const telegramURL = 'https://t.me/PloggingCats';
 
 const Header = () => {
   const scrollLink = ['CONCEPT', 'THE WORK WE DO', 'ROAD MAP', 'CAMPAIGN'];
@@ -68,8 +68,8 @@ const Header = () => {
         <a href={twitterURL}>
           <Image w={7} src={Twitter} alt="Twitter" />
         </a>
-        <a href={kakaoURL}>
-          <Image w={7} src={Kakaotalk} alt="Kakaotalk" />
+        <a href={telegramURL}>
+          <Image w={7} src={Telegram} alt="Kakaotalk" />
         </a>
       </Flex>
     </Flex>

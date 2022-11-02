@@ -12,18 +12,17 @@ import img5 from "../images/slide/slide_image_5.png";
 export default class CenterMode extends Component {
   render() {
     const baseUrl = [
-      {image: img1, text: "멸종위기 동물 | 해달1", title:"1. 내용을 적어주세요. 여기에 들어갈..."},
-      {image: img2, text: "멸종위기 동물 | 해달2", title:"2. 내용을 적어주세요. 여기에 들어갈..."},
-      {image: img3, text: "멸종위기 동물 | 해달3", title:"3. 내용을 적어주세요. 여기에 들어갈..."},
-      {image: img4, text: "멸종위기 동물 | 해달4", title:"4. 내용을 적어주세요. 여기에 들어갈..."},
-      {image: img5, text: "멸종위기 동물 | 해달5", title:"5. 내용을 적어주세요. 여기에 들어갈..."},
+      {image: img1},
+      {image: img2},
+      {image: img3},
+      {image: img4},
+      {image: img5},
     ];
     const settings = {
       customPaging: function(i) {
         return (
           <div className="paging_item">
             <img className="paging_image" src={`${baseUrl[i].image}`} />
-            {/* <div className="paging_text">{`${baseUrl[i].text}`}</div> */}
           </div>
         );
       },
@@ -48,16 +47,21 @@ export default class CenterMode extends Component {
         </div>
       );
     };
-    return (
-      <div className="slide_wrapper">
-        <Slider {...settings}>
-        {slideCustom(0)}
-        {slideCustom(1)}
-        {slideCustom(2)}
-        {slideCustom(3)}
-        {slideCustom(4)}
-        </Slider>
-      </div>
+    return (<>
+        <div className="slide_title">
+          {/* 일단 여기까지 작업 */}
+          {/* <img src="../" alt=""> */}
+        </div>
+        <div className="slide_wrapper">
+          <Slider {...settings}>
+          {slideCustom(0)}
+          {slideCustom(1)}
+          {slideCustom(2)}
+          {slideCustom(3)}
+          {slideCustom(4)}
+          </Slider>
+        </div>
+      </>
     );
   }
 }

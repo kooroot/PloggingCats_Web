@@ -6,8 +6,10 @@ import Header from './components/Header';
 import Title from './components/Title';
 import Concept from './components/Concept';
 import Work from './components/Work';
+import Work2 from './components/Work2';
+import Work3 from './components/Work3';
+import RoadMap from './components/RoadMap';
 import Slide from './components/Slide';
-import Season from './components/Season';
 import Footer from './components/Footer';
 import "./App.css";
 
@@ -19,8 +21,10 @@ function App() {
       <Title />
       <Concept />
       <Work />
+      <Work2 />
+      <Work3 />
+      <RoadMap />
       <Slide />
-      <Season />
       <Footer />
     </ChakraProvider>
   );

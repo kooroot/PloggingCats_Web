@@ -8,12 +8,14 @@ const Title = () => {
     <Flex
       id="Title"
       w="100%"
-      h="60vh"
+      maxW={1920}
+      minW={1100}
+      h={650}
+      mx={'auto'}
       alignItems="center"
       justifyContent="center"
       flexDir="column"
       backgroundColor="#ff360a"
-      minW={1100}
     >
       <Image
         w="800px"
