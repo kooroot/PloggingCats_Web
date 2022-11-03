@@ -5,14 +5,13 @@ import Work1 from '../images/logo.png';
 
 import Work9 from '../images/work/work_09.png';
 import Work12 from '../images/work/work_12.png';
+import Work13 from '../images/work/work_13.png';
 
 const RoadMap = () => {
   return (
     <Flex
       id="ROAD MAP"
-      maxW={1920}
-      minW={1100}
-      w="100%"
+      w={1200}
       h={1600}
       mx={'auto'}
       alignItems="center"
@@ -35,7 +34,7 @@ const RoadMap = () => {
       </Box>
       <Image w="200px" h="50px" mb="30px" src={Work9} alt="LEVEL.1" />
       <Image w="80%" mb="30px" src={Work12} />
-      <Image w="40%" mb="30px" src={Work1} />
+      <Image w={800} mb="30px" src={Work13} />
     </Flex>
   );
 };

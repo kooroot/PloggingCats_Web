@@ -11,6 +11,9 @@ html, body{
   align-items: center;
 }
 
+.cont{min-width: 1200px;overflow: hidden;margin: 0 auto;background-repeat: no-repeat;background-position: 50% 0;text-align: center;}
+.inner{ width: 1200px; position: relative;margin: 0 auto;}
+
 .slide_wrapper{
   display: flex;
   max-width: 1920px;
@@ -21,7 +24,7 @@ html, body{
   background-color: #f3ebcb;
 }
 
-.slick-list{height: 70%;}
+.slick-list{float: right;width: 40%;}
 
 .slick-slider{
   width: 90%;
@@ -81,7 +84,7 @@ html, body{
   border-radius: 10px;
   color: #fff;
 }
-.slick-dots .slick-active::after{
+/* .slick-dots .slick-active::after{
   display: block;
   content: '';
   position: absolute;
@@ -91,7 +94,7 @@ html, body{
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom:15px solid #ff360a;
-}
+} */
 
 .paging_item{
   display: flex;
