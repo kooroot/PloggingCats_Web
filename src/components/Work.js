@@ -1,7 +1,7 @@
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { Link as ScrollLink } from 'react-scroll';
 
-import Work1 from '../images/logo.png';
+import Work1 from '../images/work/work_01.png';
 import Work2 from '../images/work/work_02.png';
 import Work3 from '../images/work/work_03.png';
 import Work4 from '../images/work/work_04.png';
@@ -15,9 +15,7 @@ const Work = () => {
   return (
     <Flex
       id="THE WORK WE DO"
-      maxW={1920}
-      minW={1100}
-      w="100%"
+      w={1200}
       h={1000}
       mx={'auto'}
       alignItems="center"
@@ -41,10 +39,9 @@ const Work = () => {
       <Flex w="80%"  justifyContent="flex-end">
         <Flex w="40%" justifyContent="flex-start" alignItems="flex-start">
           <Image
-            maxW={1000}
-            w="90%"
-            mb="10px"
-            mr="50px"
+            w={400}
+            position={"absolute"}
+            left="26px"
             src={Work1}
           />
         </Flex>

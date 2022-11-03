@@ -9,7 +9,7 @@ import Work from './components/Work';
 import Work2 from './components/Work2';
 import Work3 from './components/Work3';
 import RoadMap from './components/RoadMap';
-import Slide from './components/Slide';
+import Campaign from './components/Campaign';
 import Footer from './components/Footer';
 import "./App.css";
 
@@ -24,7 +24,7 @@ function App() {
       <Work2 />
       <Work3 />
       <RoadMap />
-      <Slide />
+      <Campaign />
       <Footer />
     </ChakraProvider>
   );

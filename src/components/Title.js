@@ -1,15 +1,14 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
 
-import Intro from "../images/logo.png";
+import Title_t from "../images/title.png";
 
 const Title = () => {
   return (
     <Flex
       id="Title"
-      w="100%"
-      maxW={1920}
-      minW={1100}
+      className="cont"
+      w={1200}
       h={650}
       mx={'auto'}
       alignItems="center"
@@ -18,9 +17,9 @@ const Title = () => {
       backgroundColor="#ff360a"
     >
       <Image
-        w="800px"
-        h="400px"
-        src={Intro}
+        w="600px"
+        h="300px"
+        src={Title_t}
         m={[0, "auto"]}
       />
       <Box
