@@ -16,7 +16,7 @@ html, body{
 
 .slide_wrapper{
   display: flex;
-  max-width: 1920px;
+  position: relative;
   width: 100%;
   height: 60vh;
   max-height: 700px;
@@ -24,12 +24,26 @@ html, body{
   background-color: #f3ebcb;
 }
 
+.slide_title{
+  width: 60%;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+.slide_title img{
+  width: 80%;
+}
+.slide_title p{
+  width: 80%;
+  margin-left: 20px;
+}
+
 .slick-list{float: right;width: 40%;}
 
 .slick-slider{
   width: 90%;
   height: 100%;
-  margin: 0px auto 0;
+  margin: 0 auto;
 }
 
 .slick-prev, .slick-next{
@@ -84,6 +98,7 @@ html, body{
   border-radius: 10px;
   color: #fff;
 }
+/* 슬라이드 위에 뾰족한거 */
 /* .slick-dots .slick-active::after{
   display: block;
   content: '';
@@ -107,3 +122,17 @@ html, body{
 .paging_image{
   height: 100%;
 }
+
+.campaign_link{
+  display: block;
+  margin: 20px 0 0 20px;
+  font-size: 24px;
+  color: #ff360a;
+  font-weight: bold;
+}
+
+.camp_box{width: 60%;margin-top: 40px;}
+.camp_title{color: #fe350b;font-size: 26px;font-weight: bold;}
+.camp_text{font-size: 18px;font-weight: bold;}
+.camp_subtext, .camp_list{color: #8a8177;}
+.camp_list:before{content: " • ";color: #fe350b;}

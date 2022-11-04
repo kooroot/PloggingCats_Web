@@ -23,7 +23,7 @@ const Work2 = () => {
       flexDir="column"
       backgroundColor="#ff360a"
     >
-      <Image w="100%" h="400" mb="10px" src={Work6} />
+      <Image w="100%" h="440" mb="10px" src={Work6} />
       <Flex
         w="1000"
         alignItems="center"

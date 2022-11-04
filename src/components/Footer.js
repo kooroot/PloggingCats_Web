@@ -1,33 +1,35 @@
-import { Flex, Text, Image } from "@chakra-ui/react";
+import { Flex, Box, Text, Image } from '@chakra-ui/react';
 
-import f_logo from "../images/f_logo.png";
-
-// @ 팀 주소 및 카피라이트에 관한 정보를 입력합니다.
-const contactInfo =
-  "서울특별시 영등포구 의사당대로3 현대캐피탈빌딩 | 대표이사 정태영 | 사업자등록번호 213-86-15419";
-const copyRight = "© HYUNDAI CARD Corp.";
+import f_logo from '../images/logo.png';
 
 const Footer = () => {
   return (
     <Flex
       w="100%"
-      h={186}
-      justifyContent="space-around"
+      h={100}
       alignItems="center"
-      flexDir="row"
+      justifyContent="center"
       p={[4, 4, 2]}
-      bgColor="#2f2f2f"
+      bgColor="#ff360a"
       color="#808080"
       m={0}
     >
-      <Image
-        w={200}
-        src={f_logo}
-      />
-      <Text>{contactInfo}</Text>
-      <Text
-      mr={20}
-      >{copyRight}</Text>
+      <Flex
+        w={1200}
+        justifyContent="space-between"
+        alignItems="center"
+        flexDir="row"
+      >
+        <Image w={100} src={f_logo} />
+        <Box>
+          <Text color="#000" fontWeight={'bold'} display={'inline'}>
+            CONTACT&nbsp;&nbsp;|&nbsp;&nbsp;
+          </Text>
+          <Text color="#fff" display={'inline'} mr={20}>
+            cromdin@gmail.com
+          </Text>
+        </Box>
+      </Flex>
     </Flex>
   );
 };

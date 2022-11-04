@@ -49,8 +49,9 @@ export default class CenterMode extends Component {
       );
     };
     return (<>
+        <div className="slide_wrapper">
         <div className="slide_title">
-          {/* <img width="60%" src={Campaign_01} alt="" />
+          <img src={Campaign_01} alt="" />
           <p>캐치와 플로깅캣츠가 처음으로 구할 멸종위기동물은 해달
               보노(BONO)에요!
               <br />
@@ -59,9 +60,8 @@ export default class CenterMode extends Component {
               밀려오는 해양 쓰레기와 유출된 기름, 폐그물에 걸려 매일매일 목숨이
               위태로워요
               <br />
-              우리 빨리 불쌍한 해달 보노를 구출해 줍시다!</p> */}
+              우리 빨리 불쌍한 해달 보노를 구출해 줍시다!</p>
         </div>
-        <div className="slide_wrapper">
           <Slider {...settings}>
           {slideCustom(0)}
           {slideCustom(1)}

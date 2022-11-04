@@ -37,11 +37,11 @@ const Work = () => {
         THE WORK WE DO
       </Box>
       <Flex w="80%"  justifyContent="flex-end">
-        <Flex w="40%" justifyContent="flex-start" alignItems="flex-start">
+        <Flex w="40%" position={"relative"} justifyContent="flex-start" alignItems="flex-start">
           <Image
             w={400}
             position={"absolute"}
-            left="26px"
+            left="-120px"
             src={Work1}
           />
         </Flex>
