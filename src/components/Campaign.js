@@ -122,7 +122,7 @@ const Campaign = () => {
               </Text>
             </Box>
           </Box>
-          <a href="#">
+          <a href="./minting/index.html">
             <Image
               w="40%"
               mb="40px"
