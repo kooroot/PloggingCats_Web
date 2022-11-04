@@ -26,7 +26,7 @@ const Footer = () => {
             CONTACT&nbsp;&nbsp;|&nbsp;&nbsp;
           </Text>
           <Text color="#fff" display={'inline'} mr={20}>
-            cromdin@gmail.com
+            implogging@ploggingcats.io
           </Text>
         </Box>
       </Flex>
