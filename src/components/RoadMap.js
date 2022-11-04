@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import Work1 from '../images/logo.png';
 
-import Work9 from '../images/work/work_09.png';
+import Work9 from '../images/work/work_12-1.png';
 import Work12 from '../images/work/work_12.png';
 import Work13 from '../images/work/work_13.png';
 
@@ -33,7 +33,7 @@ const RoadMap = () => {
         ROAD MAP
       </Box>
       <Image w="200px" h="50px" mb="30px" src={Work9} alt="LEVEL.1" />
-      <Image w="80%" mb="30px" src={Work12} />
+      <Image w="80%" mb="30px" ml="140px" src={Work12} />
       <Image w={800} mb="30px" src={Work13} />
     </Flex>
   );

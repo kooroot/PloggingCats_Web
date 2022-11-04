@@ -69,7 +69,7 @@ const Campaign = () => {
           <Image
             w="40%"
             position={'absolute'}
-            top="30px"
+            top="0px"
             right="30px"
             src={Campaign_03}
             alt="PARTNERSHIP OF SEASON 1 DIPHDA JEJU"
@@ -127,7 +127,7 @@ const Campaign = () => {
               w="40%"
               mb="40px"
               position={'absolute'}
-              top="110px"
+              top="150px"
               right="110px"
               src={Campaign_05}
               alt="ABOUT MINTING"

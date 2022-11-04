@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import Work1 from '../images/logo.png';
 
 import Work5 from '../images/work/work_05.png';
-import Work7 from '../images/work/work_07.png';
+import Work8 from '../images/work/work_08.png';
 import Work9 from '../images/work/work_09.png';
 import Work10 from '../images/work/work_10.png';
 import Work11 from '../images/work/work_11.png';
@@ -27,12 +27,12 @@ const Work3 = () => {
         justifyContent="flex-start"
         flexDir="column"
       >
-        <Image w="400px" h="50px" mb="30px" src={Work7} alt="SEASONAL SYSTEM" />
+        <Image w="400px" h="50px" mb="30px" src={Work8} alt="SEASONAL SYSTEM" />
         <Box w="80%" mb="60px">
           <Text
             fontWeight={'bold'}
             textAlign={'center'}
-            color="#fff"
+            color="#faecc9"
             fontSize="28px"
             mb="20px"
           >
@@ -59,27 +59,43 @@ const Work3 = () => {
           <Text
             fontWeight={'bold'}
             textAlign={'center'}
-            color="#fff"
+            color="#faecc9"
             fontSize="28px"
             mb="20px"
           >
             전 세계 환경 단체를 잇는 플로깅캣츠 유니온!
           </Text>
-          <Flex w="100%" alignItems="center" textAlign={"center"} flexDir="column" fontWeight={'bold'}>
+          <Flex
+            w="100%"
+            alignItems="center"
+            textAlign={'center'}
+            flexDir="column"
+            fontWeight={'bold'}
+          >
             <Text fontWeight={'bold'}>
-              플로깅 캣츠는 <br /> 홀더에겐 기부의 뿌듯함과 신뢰를,<br />환경 단체에겐
-              활동을 지속할 힘을 전달합니다.<br /><br />
-              플로깅캣츠는<br />세계관과 네트워크를 점차 확장하여<br />
-              개별 단체로 진행이 어려운 보다 큰 환경 활동을 주도해 나갈 것이며,<br />
-              사회적으로 가치 있고 지속 가능한<br />
+              플로깅 캣츠는 <br /> 홀더에겐 기부의 뿌듯함과 신뢰를,
+              <br />
+              환경 단체에겐 활동을 지속할 힘을 전달합니다.
+              <br />
+              <br />
+              플로깅캣츠는
+              <br />
+              세계관과 네트워크를 점차 확장하여
+              <br />
+              개별 단체로 진행이 어려운 보다 큰 환경 활동을 주도해 나갈 것이며,
+              <br />
+              사회적으로 가치 있고 지속 가능한
+              <br />
             </Text>
-            <Text fontWeight={'bold'} color="#fff">
-              IMPACT NFT PROJECT
-            </Text>
-            <Text fontWeight={'bold'}>와 그 문화를 만들어 갈 것입니다.</Text>
+            <Box>
+              <Text fontWeight={'bold'} color="#fff" display={"inline"}>
+                IMPACT NFT PROJECT
+              </Text>
+              <Text fontWeight={'bold'} display={"inline"}> 와 그 문화를 만들어 갈 것입니다.</Text>
+            </Box>
           </Flex>
         </Box>
-        <Flex alignItems={"center"}>
+        <Flex alignItems={'center'}>
           <Image
             w="300px"
             h="100px"
@@ -96,7 +112,7 @@ const Work3 = () => {
           />
         </Flex>
 
-        <Text color="#666" fontSize="16">
+        <Text color="#454545" fontSize="16">
           본 프로젝트는 한국콘텐츠진흥원의 '2022 콘텐츠 임팩트' 사업의 지원으로
           제작되었습니다.
         </Text>

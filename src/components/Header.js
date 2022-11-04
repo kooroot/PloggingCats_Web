@@ -63,13 +63,13 @@ const Header = () => {
           })}
         </Flex>
         <Flex w="120px" justifyContent="space-between" alignItems={"center"}>
-          <a href={instagramURL}>
+          <a href={instagramURL} target="_blank">
             <Image w={7} src={Insta} alt="Insta" />
           </a>
-          <a href={twitterURL}>
+          <a href={twitterURL} target="_blank">
             <Image w={7} src={Twitter} alt="Twitter" />
           </a>
-          <a href={telegramURL}>
+          <a href={telegramURL} target="_blank">
             <Image w={7} src={Telegram} alt="Kakaotalk" />
           </a>
         </Flex>

@@ -6,6 +6,7 @@ import Work1 from '../images/logo.png';
 import Work5 from '../images/work/work_05.png';
 import Work6 from '../images/work/work_06.png';
 import Work7 from '../images/work/work_07.png';
+import Work8 from '../images/work/work_08.png';
 import Work9 from '../images/work/work_09.png';
 import Work10 from '../images/work/work_10.png';
 import Work12 from '../images/work/work_12.png';
@@ -14,7 +15,7 @@ const Work2 = () => {
   return (
     <Flex
       w={1200}
-      h={850}
+      h={1050}
       mx={'auto'}
       alignItems="center"
       justifyContent="flex-start"
@@ -23,7 +24,7 @@ const Work2 = () => {
       flexDir="column"
       backgroundColor="#ff360a"
     >
-      <Image w="100%" h="440" mb="10px" src={Work6} />
+      <Image w="100%" mb="10px" src={Work6} />
       <Flex
         w="1000"
         alignItems="center"
@@ -36,7 +37,7 @@ const Work2 = () => {
             <Text
               fontWeight={'bold'}
               textAlign={'center'}
-              color="#fff"
+              color="#faecc9"
               fontSize="20px"
               mb="20px"
             >
@@ -52,7 +53,7 @@ const Work2 = () => {
             <Text
               fontWeight={'bold'}
               textAlign={'center'}
-              color="#fff"
+              color="#faecc9"
               fontSize="20px"
               mb="20px"
             >
@@ -70,7 +71,7 @@ const Work2 = () => {
             <Text
               fontWeight={'bold'}
               textAlign={'center'}
-              color="#fff"
+              color="#faecc9"
               fontSize="20px"
               mb="20px"
             >

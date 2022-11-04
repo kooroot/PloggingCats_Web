@@ -27,7 +27,7 @@ const Concept = () => {
         >
           CONCEPT
         </Box>
-        <Flex w="500px" ml="300px" justifyContent="center" alignItems="center">
+        <Flex w="560px" ml="320px" justifyContent="center" alignItems="center">
           <Box className="text_box" mt="160">
             <Text fontWeight={'bold'}>
               트래쉬 타운에 사는 길고양이 캐치(Catchy)에게 쓰레기로 덮인 세상은
@@ -39,11 +39,12 @@ const Concept = () => {
               있고 마침내 청정자연인 그린랜드를 찾을 수 있다는 거였죠!
               <br />
               캐치도 아주 어릴 적 잠깐 보았던 깨끗한 그린랜드가 떠올랐어요.
+              <br />
               파아란 하늘과 투명한 바다, 밤하늘에 별이 가득 빛나던 그곳이 너무나
               그리워진 캐치는 고양이 친구들을 모아 '플로깅캣츠'를 만들고 다 함께
               그린랜드를 찾기로 했어요.
             </Text>
-            <Text fontWeight={'bold'} color="#fff" fontSize="20px" mt="20px">
+            <Text fontWeight={'bold'} color="#faecc9" fontSize="20px" mt="20px">
               자, 여러분도 지금 당장 '플로깅캣츠'의 고양이 단원이 되어
               <br />
               멸종위기동물을 구하고 그린랜드를 찾아 떠나보아요!

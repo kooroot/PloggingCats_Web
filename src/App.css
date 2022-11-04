@@ -10,7 +10,7 @@ html, body{
   display: flex;
   align-items: center;
 }
-
+p{color:#2a1b0c;}
 .cont{min-width: 1200px;overflow: hidden;margin: 0 auto;background-repeat: no-repeat;background-position: 50% 0;text-align: center;}
 .inner{ width: 1200px; position: relative;margin: 0 auto;}
 
