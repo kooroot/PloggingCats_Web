@@ -17,12 +17,11 @@ const Header = () => {
     <Flex
       pos="fixed"
       w="100%"
-      minW={1100}
+      minW={1200}
       h="113px"
       top="0"
       justifyContent="space-between"
       alignItems="center"
-      px={8}
       shadow="md"
       backgroundColor="#ff360a"
       zIndex={1}
