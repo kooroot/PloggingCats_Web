@@ -33,7 +33,7 @@ const RoadMap = () => {
         ROAD MAP
       </Box>
       <Image w="200px" h="50px" mb="30px" src={Work9} alt="LEVEL.1" />
-      <Image w="80%" mb="30px" ml="140px" src={Work12} />
+      <Image w="80%" mb="30px" ml="166px" src={Work12} />
       <Image w={800} mb="30px" src={Work13} />
     </Flex>
   );
