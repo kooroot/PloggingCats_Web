@@ -1,7 +1,6 @@
 import React from 'react';
 import { ChakraProvider, theme } from '@chakra-ui/react';
-// import { ColorModeSwitcher } from './ColorModeSwitcher';
-// import { Logo } from './Logo';
+import { isMobile } from "react-device-detect";
 import Header from './components/Header';
 import Title from './components/Title';
 import Concept from './components/Concept';
@@ -15,19 +14,26 @@ import "./App.css";
 
 
 function App() {
-  return (
-    <ChakraProvider theme={theme} p="50">
-      <Header />
-      <Title />
-      <Concept />
-      <Work />
-      <Work2 />
-      <Work3 />
-      <RoadMap />
-      <Campaign />
-      <Footer />
-    </ChakraProvider>
-  );
+  if (isMobile) {
+    return (
+      <h1 id='isMobile'>Please connect to desktop</h1>
+    );
+  } else {
+    return (
+      <ChakraProvider theme={theme} p="50">
+        <Header />
+        <Title />
+        <Concept />
+        <Work />
+        <Work2 />
+        <Work3 />
+        <RoadMap />
+        <Campaign />
+        <Footer />
+      </ChakraProvider>
+    );
+  }
+  
 }
 
 export default App;

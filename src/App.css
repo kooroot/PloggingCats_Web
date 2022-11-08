@@ -5,6 +5,7 @@ html, body{
 }
 
 #root{margin-top: 113px;background-color: #ff360a;}
+#isMobile{width: 100vw;height: 100vh;display: flex;margin-top: -113px;justify-content: center;align-items: center;}
 
 #h_logo{
   display: flex;
