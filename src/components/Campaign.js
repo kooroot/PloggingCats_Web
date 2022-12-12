@@ -82,7 +82,7 @@ const Campaign = () => {
               <Box className="camp_box">
                 <Text className="camp_title">민팅 기간</Text>
                 <Text className="camp_text">
-                  2022. 11. 8. (화) ~ 11. 30. (수) 약 3주
+                  2022. 11. 8. (화) ~ 2023. 01. 06. (금) 약 8주
                 </Text>
               </Box>
 
